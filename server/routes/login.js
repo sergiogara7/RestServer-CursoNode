@@ -55,7 +55,6 @@ app.post('/login', function (req, res) {
 
 // Config Google
 async function verify(token) {
-    /*
     const ticket = await client.verifyIdToken({
         idToken: token,
         audience: process.env.CLIENT_ID,
@@ -70,7 +69,7 @@ async function verify(token) {
         img: payload.picture,
         google: true
     }
-    */
+    /*
     console.log('verificando manual');
     return {
         nombre: 'Sergio Gara',
@@ -78,6 +77,7 @@ async function verify(token) {
         img: 'xxx.jpg',
         google: true
     }
+    */
 }
 
 //
