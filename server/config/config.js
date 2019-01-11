@@ -14,7 +14,7 @@ if(process.env.NODE_ENV === 'dev'){
 process.env.URLDB = urlDB;
 
 // -- caducidad 
-process.env.CADUCIDAD_TOKEN = 60 * 60 * 24 * 30;
+process.env.CADUCIDAD_TOKEN = '48h';
 
 // -- SEED autenticacion
 process.env.SEED = process.env.SEED || 'seed-dev';
